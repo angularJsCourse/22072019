@@ -22,17 +22,18 @@ class PersonClass {
         if(personDetails['female'])
             this._gender = 'female'
        }
-    set name  (name)  { this._name = name}
-    get name  ()       { return this._name}
-    set age  (name)  { this._name = name}
-    get age  ()       { return this._age}
-    set bike  (name)  { this._bike = bike}
-    get bike  ()       { return this._bike}
-    set password  (name)  { this._password = password}
-    get password  ()       { return this._password}
-    set car  (name)  { this._car = car}
-    get car  ()       { return this._car}
-    get gender  ()       { return this._gender}
+     set name  (name)  { this._name = name}
+     get name  ()       { return this._name}
+     set age  (age)  { this._age = age}
+     get age  ()       { return this._age}
+     set bike  (name)  { this._bike = bike}
+     get bike  ()       { return this._bike}
+     set password  (pass)  { this._password =pass}
+     get password  ()       { return this._password}
+     set car  (car)  { this._car = car}
+     get car  ()       { return this._car}
+     get gender  ()       { return this._gender}
+     set gender (gen) {}
   }
 
 function clickPerson(){
